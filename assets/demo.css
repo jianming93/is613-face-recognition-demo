@@ -1,0 +1,64 @@
+body {
+    background-image: url('background2.png');
+}
+#page-content {
+    margin:auto;
+}
+
+.card {
+    width: 50vw;
+    height: 75vh;
+}
+
+
+#intro-header {
+    text-align: center;
+}
+
+#intro-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+#intro-button {
+    width: 50%;
+}
+
+
+#video-stream-layout {
+    display: none;
+}
+
+#detected-layout {
+    display: none
+}
+
+#detected-header {
+    text-align: center;
+}
+
+#detected-face-container,
+#database-face-container {
+    height: 45vh;
+    width: 50%;
+}
+
+#detected-face,
+#database-face {
+    height: 100%;
+    width: 100%;
+}
+
+#database-face-text,
+#detected-face-text {
+    text-align: center;
+}
+
+#detected-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+#return-start {
+    width: 50%;
+}
